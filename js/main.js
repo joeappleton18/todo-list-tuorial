@@ -55,7 +55,7 @@ function buildList() {
    * I pass an arrow function into map https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
    * Can you work out what's going on below? Why are we using map here and forEach below
    */
-  let htmlList = todoList.map((item, id) => buildListItemTemplate(item, id));
+  let htmlList = todoList.map((item, id) => buildListItemTemplate(item, id)).join('');
   listHtmlElm.innerHTML = htmlList;
 
 
