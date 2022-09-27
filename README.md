@@ -6,6 +6,6 @@ Simple! Complete the to do list
 
 - Clone this repository
 - `npm install` to install the dependencies 
-- `npm run dev-server`
+- `npm run start`
 
 - Complete the Todolist
